@@ -258,7 +258,7 @@ var gzipHtml = function(){
                 }
           }
         };
-      traverseFileSystem(baseDir+'public');
+      traverseFileSystem(baseDir+'public_html');
       var finish = Date.now();
       var elapsed = (finish - start) / 1000;
    });
